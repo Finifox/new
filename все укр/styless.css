@@ -1,0 +1,248 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Cormorant+Infant:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic);
+
+  .whole{
+    background-color: #E8E4DB;
+    
+  }
+
+  .container{
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    display: flex;
+   justify-content: space-between;
+    height: 100px;
+    width: 1920px;
+    background-color: #B6AF76;
+    padding-left: 627px;
+    
+}
+.menu{
+    display: flex;
+    list-style: none;
+  
+}
+
+.menu-item{
+    margin-top: 24px;
+    margin-right: 35px;
+    text-decoration: none;
+}
+.menu-item:last-child{
+    margin-right: 0;
+}
+
+.menu-item a{
+    color: #484C27;
+    font-weight: 700;
+    font-size: 40px;
+    text-decoration: none;
+   text-align: center;
+  
+
+}
+.menu-buttons a{
+   text-decoration: none;
+   margin-right: 30px;
+   
+}
+.under-header{
+    height:200px;
+    width: 1920px;
+    display: flex;
+    background-color: #B31D22;
+    justify-content: center;
+   
+}
+.under-header-info a{
+    text-decoration: none;
+    font-size: 128px;
+   text-align: center;
+    color: #DDC7BD;
+    display: flex;
+    font-weight: 600;
+}
+.post-underheader{
+    height: 140px;
+    background-color: #DDC7BD;
+    width: 1920px;
+    justify-content: center;
+}
+.post-underheader-info{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.post-underheader-link{
+    margin-top: 41px;
+    margin-right: 350px;
+    text-decoration: none;
+}
+.post-underheader-link:last-child{
+    margin-right: 0;
+}
+.post-underheader-link a{
+text-decoration: none;
+color: #484C27;
+font-size: 48px;
+display: flex;
+text-align: center;
+font-weight: 600;
+}
+
+.post-cards {
+    display: flex;
+    text-decoration: none;
+   justify-content: center;
+
+  
+}
+.post-cards a{
+    text-decoration: none;
+
+}
+
+.card-img{
+    margin-top: 30px;
+    min-width: 747px;
+    min-height: 469px ;
+    display: flex;
+    padding-left: 131px;
+    padding-right: 131px;
+    
+}
+
+.card-info{
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    margin-top: 18px;
+}
+.card-title{
+    font-weight: bold; 
+    font-size: 30px;
+    margin-bottom: 14px;
+    color: #484C27;
+    text-decoration: none;
+ }
+ .card-price{
+    font-weight: bold; 
+    font-size: 30px;
+    margin-bottom: 16px;
+    color: #4B261A;
+    text-decoration: none;
+ }
+ .card-not{
+    font-weight: bold; 
+    font-size: 34px;
+    margin-bottom: 16px;
+    color: #B31D22;
+    text-decoration: none;
+ }
+ .pins-header{
+    height: 277px;
+    background-color: #DDC7BD;
+    width: 1920px;
+    margin-top: 85px;
+    
+}
+.pins-header-info{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.pins-header-link{
+    margin-top: 41px;
+    text-decoration: none;
+}
+.pins-header-link:last-child{
+    margin-right: 0;
+}
+.pins-header-link a{
+text-decoration: none;
+color: #B31D22;
+font-size: 128px;
+display: flex;
+text-align: center;
+font-weight: 600;
+}
+.pins-cards {
+    display: flex;
+    text-decoration: none;
+   justify-content: center;
+
+}
+.pins-cards a{
+    text-decoration: none;
+}
+
+.pin-img{
+    margin-top: 184px;
+    min-width: 595px;
+    min-height: 595px ;
+    display: flex;
+    padding-left: 131px;
+    padding-right: 131px;
+    border-radius: 22px;   
+}
+
+.pin-info{
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+    margin-top: 18px;
+}
+.pin-title{
+    font-weight: bold; 
+    font-size: 30px;
+    margin-bottom: 14px;
+    color: #B31D22;
+    text-decoration: none;
+ }
+ .pin-price{
+    font-weight: bold; 
+    font-size: 30px;
+    margin-bottom: 16px;
+    color: #4B261A;
+    text-decoration: none;
+ }
+ .footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #484C27;
+    margin-top: 200px;
+    padding-left: 50px;
+}
+.footer-title{
+    color: #B6AF76;
+    font-size: 110px;
+    font-weight: 600;
+    
+    }
+    
+    .footer-insta a{
+        font-size: 110px;
+        font-weight: 600;
+        color: #E8E4DB;
+        text-decoration: none;
+    }
+    
+    .footer-email a{
+      font-size: 64px;
+      color: #DDC7BD;
+      margin-top: 50px;
+      display: flex;
+      text-decoration: none;
+
+    }
+    .footer-tg {
+        margin-top: 50px;
+    }
